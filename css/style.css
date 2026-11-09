@@ -3,10 +3,10 @@ Bootstrap Variables Override
 **********************************/
 :root {
     /* Replace your primary color from your UI Kit */
-    --bs-primary: #ff7900;
+    --bs-primary: #df2026;
 
     /* Replace your secondary color from your UI Kit  */
-    --secondary-color: #f9d583;
+    --secondary-color: #9c161b;
 
     /* Replace the main body font from your UI Kit */
     --bs-font-sans-serif: 'Zalando Sans Expanded', verdana, sans-serif;
@@ -58,7 +58,7 @@ footer .footer-social {
 .btn-primary:hover {
     /* Optional: Change primary button hover state background and text color  */
     background-color: var(--secondary-color);
-    color: var(--bs-dark);
+    color: var(--bs-white);
 }
 
 /********************************
