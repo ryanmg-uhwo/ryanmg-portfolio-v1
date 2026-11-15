@@ -20,7 +20,7 @@ Bootstrap Variables Override
 Global Styles and UI Components
 **********************************/
 .navbar {
-
+    background-color: var(--bs-primary);
     /* Optional: Stretch the navbar across the full width */
     width: 100%;
 
@@ -32,7 +32,7 @@ footer {
     /* Change footer background color */
     background-color: var(--bs-white);
     /* Optional: Change footer text color to white using variable */
-    color: var(--bs-dark);
+    color: var(--bs-white);
     /* Optional: Center footer elements */
     text-align: center;
 }
