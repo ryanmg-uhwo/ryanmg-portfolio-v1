@@ -63,8 +63,8 @@ footer .footer-social {
 
 .btn-primary-disabled {
     /* Optional: Change primary button disabled state background and text color  */
-    background-color: var(#f3a9ac);
-    color: var(#330709);
+    background-color: #f3a9ac;
+    color: #330709;
 }
 
 /********************************
@@ -143,7 +143,7 @@ section {
 }
 
 footer {
-    background-color: var(--secondary-color);
+    background-color: #781114;
 }
 
 svg {
