@@ -61,6 +61,12 @@ footer .footer-social {
     color: var(--bs-white);
 }
 
+.btn-primary-disabled {
+    /* Optional: Change primary button disabled state background and text color  */
+    background-color: var(#f3a9ac);
+    color: var(#330709);
+}
+
 /********************************
 Typography
 **********************************/
