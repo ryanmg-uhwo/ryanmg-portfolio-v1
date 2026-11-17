@@ -71,6 +71,25 @@ Global Styles and UI Components
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+.projects {
+    background-color: #330709;
+    color: white;
+}
+
+.projectdetails {
+    background-color: #330709;
+    color: white;
+}
+
+.card {
+    background-color: white;
+}
+
+.about {
+    background-color: #9C161B;
+    color: white;
+}
+
 footer {
     /* Change footer background color */
     background-color: var(--bs-white);
