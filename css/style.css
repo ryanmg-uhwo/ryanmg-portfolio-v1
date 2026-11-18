@@ -30,6 +30,9 @@ Global Styles and UI Components
 
 .navbar-brand {
     color: white;
+    font-size: 1.25rem;
+    font-weight: 800;
+    /* padding-left: 1em; */
 }
 
 .navbar-brand:hover {
@@ -40,12 +43,22 @@ Global Styles and UI Components
     color: white;
 }
 
+button.navbar-toggler {
+    border-color: white;
+}
+
 .navbar-toggler-icon {
+    color: white;
+}
+
+span.navbar-toggler-icon {
     color: white;
 }
 
 .nav-link {
     color: white;
+    font-size: 1em;
+    font-weight: 600;
 }
 
 .hero {
@@ -56,11 +69,18 @@ Global Styles and UI Components
     color: white;
 }
 
+.hero h2 {
+    font-size: 4em;
+    padding-top: 3em;
+}
+
 .hero-projectdetails {
-    background-size: cover;
-    min-height: 21.75rem;
-    max-height: 28.25rem;
-    position: relative;
+    /* background-size: cover; */
+    /* min-height: 21.75rem;
+    max-height: 28.25rem; */
+    width: 100%;
+    height: auto;
+    /* position: relative; */
     color: white;
 }
 
@@ -85,9 +105,32 @@ Global Styles and UI Components
     background-color: white;
 }
 
+.card-big {
+    border-radius: 3em 0 3em 0;
+}
+
+.card-thumb {
+    border-radius: 3em 0 3em 0;
+    padding: 1em 1em 0 1em;
+}
+
+/* .card h5 {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.card p {
+    font-size: 1rem;
+    font-weight: 400;
+} */
+
 .about {
     background-color: #9C161B;
     color: white;
+}
+
+.about-headshot {
+    border-radius: 3em 0 3em 0;
 }
 
 footer {
@@ -96,7 +139,8 @@ footer {
     /* Optional: Change footer text color to white using variable */
     color: var(--bs-white);
     /* Optional: Center footer elements */
-    text-align: center;
+    text-align: left;
+    padding: .5em .5em 0 .5em;
 }
 
 footer .footer-social {
@@ -201,7 +245,7 @@ img {
 }
 
 section {
-    padding: 6em 0;
+    padding: 4em 0;
 }
 
 footer {

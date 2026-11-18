@@ -31,7 +31,10 @@
     <!-- Start of Header Section -->
     <nav class="navbar navbar-expand-lg">
         <!-- Logo -->
-        <a class="navbar-brand" href="/index.html">Ryan Gomez</a>
+        <a class="navbar-brand" href="/index.html">
+            <img src="/images/rg-logo.svg" alt="Logo" width="28" height="28">
+            Ryan Gomez
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,9 +42,9 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <!-- Menu Links -->
-                <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="/index.html#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="/index.html#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
             </ul>
         </div>
     </nav>
@@ -65,22 +68,23 @@
             <h3>Featured projects</h3>
             <div class="row">
                 <!-- Start of Card -->
-                <div class="col-xs-12 col-xl-6">
-                    <div class="card" style="width: 18rem;">
-                        <img src="images/portfolio_epcot1.png" class="card-img-top" alt="thumbnail of EPCOT project">
+                <div class="one-half">
+                    <div class="card card-big">
+                        <img src="/images/portfolio_epcot1.png" class="card-img-top card-thumb"
+                            alt="thumbnail of EPCOT project">
                         <div class="card-body">
                             <h5 class="card-title">EPCOT Brand Recreation</h5>
                             <p class="card-text">A comprehensive recreation of the theme park's signature graphic
                                 elements</p>
-                            <a href="/epcot.html" class="btn btn-primary">View project</a>
+                            <a href="epcot.html" class="btn btn-primary">View project</a>
                         </div>
                     </div>
                 </div>
                 <!-- End of Card -->
                 <!-- Start of Card -->
-                <div class="-xs-12 col-xl-6">
-                    <div class="card" style="width: 18rem;">
-                        <img src="images/portfolio_horseshoe1.png" class="card-img-top"
+                <div class="one-half">
+                    <div class="card card-big">
+                        <img src="/images/portfolio_horseshoe1.png" class="card-img-top card-thumb"
                             alt="thumbnail of Horseshoe Las Vegas project">
                         <div class="card-body">
                             <h5 class="card-title">Horseshoe Las Vegas</h5>
@@ -95,9 +99,9 @@
             </div>
             <div class="row">
                 <!-- Start of Card -->
-                <div class="col-xs-12 col-xl-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="images/portfolio_hth1.png" class="card-img-top"
+                <div class="one-third">
+                    <div class="card card-big">
+                        <img src="/images/portfolio_hth1.png" class="card-img-top  card-thumb"
                             alt="thumbnail of Hollywood Tower 3D project">
                         <div class="card-body">
                             <h5 class="card-title">Hollywood Tower Hotel (ca. 1929)</h5>
@@ -109,9 +113,9 @@
                 </div>
                 <!-- End of Card -->
                 <!-- Start of Card -->
-                <div class="col-xs-12 col-xl-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="images/portfolio_bass1.png" class="card-img-top"
+                <div class="one-third">
+                    <div class="card card-big">
+                        <img src="/images/portfolio_bass1.png" class="card-img-top  card-thumb"
                             alt="thumbnail of Bass Poster project">
                         <div class="card-body">
                             <h5 class="card-title">Saul Bass-Inspired Film Posters</h5>
@@ -123,9 +127,9 @@
                 </div>
                 <!-- End of Card -->
                 <!-- Start of Card -->
-                <div class="col-xs-12 col-xl-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="images/portfolio_tdl1.png" class="card-img-top"
+                <div class="one-third">
+                    <div class="card card-big">
+                        <img src="/images/portfolio_tdl1.png" class="card-img-top  card-thumb"
                             alt="thumbnail of Tokyo Disneyland project">
                         <div class="card-body">
                             <h5 class="card-title">Tokyo Disneyland Logo Collection</h5>
@@ -145,7 +149,8 @@
     <section class="about">
         <div class="container" id="about">
             <div class="row">
-                <div class="one-half"><img src="images/about-headshot.png" alt="Ryan Gomez"></div>
+                <div class="one-half"><img src="images/about-headshot.png" class="about-headshot" alt="Ryan Gomez">
+                </div>
                 <div class="one-half">
                     <h3>About Me</h3>
                     <p>Hi, I'm Ryan Gomez, an artist and aspiring graphic designer. I was born and raised on O'ahu, HI,
@@ -169,6 +174,12 @@
     <!-- Start of Footer Section -->
     <footer>
         © 2026 Ryan Gomez
+        <ul class="navbar-nav ms-auto">
+            <!-- Menu Links -->
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        </ul>
         <footer>
             <!-- End of Footer Section -->
 
