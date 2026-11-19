@@ -83,7 +83,32 @@ span.navbar-toggler-icon {
     color: white;
     font-size: 1em;
     font-weight: 600;
+    position: relative;
+    padding-left: .5em;
 }
+
+.nav-link:hover {
+    color: white;
+    /* text-decoration: underline; */
+}
+
+.nav-link:after {
+    content: '';
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-link:hover:after {
+    opacity: 1;
+}
+
+.nav-item {}
 
 .hero {
     background-size: cover;
@@ -92,6 +117,7 @@ span.navbar-toggler-icon {
     position: relative;
     color: white;
 }
+
 .hero-bg {
     background-image: url('../images/Cover2_Test.png');
     background-repeat: no-repeat;
@@ -113,10 +139,11 @@ span.navbar-toggler-icon {
     color: white;
 }
 
-.epcot img{
+.epcot img {
     background-image: url('../images/Portfolio_EPCOT1.png');
     background-repeat: no-repeat;
 }
+
 .projectdetails {
     padding: 0;
     margin: 0;
@@ -132,6 +159,11 @@ span.navbar-toggler-icon {
 .projects {
     background-color: #330709;
     color: white;
+}
+
+.projects h3 {
+    color: aqua;
+    font-size: 4em;
 }
 
 .projectdetails {
