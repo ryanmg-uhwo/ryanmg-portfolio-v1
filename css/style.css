@@ -26,6 +26,7 @@ Global Styles and UI Components
 
     /* Optional: Add inner spacing to the navbar */
     padding: 1rem;
+    /* position: fixed; */
 }
 
 .navbar-brand {
@@ -85,6 +86,7 @@ span.navbar-toggler-icon {
     font-weight: 600;
     position: relative;
     padding-left: .5em;
+    padding-right: .5em;
 }
 
 .nav-link:hover {
@@ -108,7 +110,7 @@ span.navbar-toggler-icon {
     opacity: 1;
 }
 
-.nav-item {}
+/* .nav-item {} */
 
 .hero {
     background-size: cover;
@@ -161,10 +163,10 @@ span.navbar-toggler-icon {
     color: white;
 }
 
-.projects h3 {
+/* .projects h3 {
     color: aqua;
     font-size: 4em;
-}
+} */
 
 .projectdetails {
     background-color: #330709;
@@ -203,6 +205,10 @@ span.navbar-toggler-icon {
     border-radius: 3em 0 3em 0;
 }
 
+.about h3 {
+    font-size: 4em;
+}
+
 footer {
     /* Change footer background color */
     background-color: var(--bs-white);
@@ -232,6 +238,8 @@ footer .footer-social {
     background-color: var(--bs-primary);
     /* Optional: Remove primary button outline */
     border: none;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 .btn-primary:hover {
@@ -244,6 +252,8 @@ footer .footer-social {
     /* Optional: Change primary button disabled state background and text color  */
     background-color: #f3a9ac;
     color: #330709;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 /********************************
@@ -343,6 +353,7 @@ svg {
 /* GRID */
 .row {
     --gridgap: 2em;
+    --gridgap: 1em;
 }
 
 .row2 {
