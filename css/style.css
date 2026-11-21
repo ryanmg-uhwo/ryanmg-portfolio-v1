@@ -19,6 +19,12 @@ Bootstrap Variables Override
 /********************************
 Global Styles and UI Components
 **********************************/
+
+body {
+    background-color: #330709;
+
+}
+
 .navbar {
     background-color: var(--bs-primary);
     /* Optional: Stretch the navbar across the full width */
@@ -78,7 +84,11 @@ span.navbar-toggler-icon {
     width: 150px;
     margin-right: .5em; } */
 
-
+header {
+    top: 0;
+    position: sticky;
+    z-index: 100;
+}
 
 .nav-link {
     color: white;
@@ -111,6 +121,11 @@ span.navbar-toggler-icon {
 }
 
 /* .nav-item {} */
+
+.nav-brand {
+    margin-right: .5em;
+}
+
 
 .hero {
     background-size: cover;
@@ -173,6 +188,22 @@ span.navbar-toggler-icon {
     color: white;
 }
 
+.projectdetails-process h3,
+.projectdetails-process h4,
+.projectdetails-process p {
+    color: white
+}
+
+.projectdetails-process p {
+    width: 19em;
+}
+
+@media (min-width: 768px) {
+    .projectdetails-process p {
+        width: 35em;
+    }
+}
+
 .card {
     background-color: white;
 }
@@ -209,6 +240,19 @@ span.navbar-toggler-icon {
     font-size: 2em;
 } */
 
+.centered {
+    margin: 0 auto;
+    width: 150px;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .centered {
+        margin: 0 auto;
+        width: 350px;
+    }
+}
+
 footer {
     /* Change footer background color */
     background-color: var(--bs-white);
@@ -220,6 +264,7 @@ footer {
     display: flex;
     justify-content: space-between;
     list-style: none;
+    font-size: .8em;
 }
 
 footer .footer-social {
@@ -317,6 +362,10 @@ img {
     height: auto;
 }
 
+.pTop {
+    padding-top: 1em;
+}
+
 .hero {
     /* width: 1320px; */
     margin: 0 auto;
@@ -325,6 +374,18 @@ img {
 .hero p {
     font-family: var(--bs-body-font-sans-serif);
     font-size: 1.5rem;
+}
+
+/* .hero-btn {
+    z-index: -1;
+} */
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
 }
 
 section {
@@ -353,7 +414,7 @@ svg {
 /* GRID */
 .row {
     --gridgap: 2em;
-    --gridgap: 1em;
+
 }
 
 .row2 {
