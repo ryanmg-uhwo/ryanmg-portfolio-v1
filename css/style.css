@@ -205,9 +205,9 @@ span.navbar-toggler-icon {
     border-radius: 3em 0 3em 0;
 }
 
-.about h3 {
-    font-size: 4em;
-}
+/* .about h3 {
+    font-size: 2em;
+} */
 
 footer {
     /* Change footer background color */
