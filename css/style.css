@@ -147,6 +147,24 @@ header {
     padding-top: 6em;
 }
 
+.horseshoe h2 {
+    font-size: 3.5em;
+    padding-top: 4em;
+}
+
+.horseshoe h3 {
+    font-size: 2em;
+}
+
+.hth h2 {
+    font-size: 3.5em;
+    padding-top: 4em;
+}
+
+.hth h3 {
+    font-size: 2em;
+}
+
 .hero-projectdetails {
     /* background-size: cover; */
     /* min-height: 21.75rem;
