@@ -211,10 +211,10 @@ header {
     color: white;
 }
 
-/* .projects h3 {
+.projects h3 {
     color: aqua;
-    font-size: 4em;
-} */
+    font-size: 2em;
+}
 
 .projectdetails {
     background-color: #330709;
@@ -269,9 +269,10 @@ header {
     border-radius: 3em 0 3em 0;
 }
 
-/* .about h3 {
+.about h3 {
     font-size: 2em;
-} */
+    color: aqua;
+}
 
 .centered {
     margin: 0 auto;
