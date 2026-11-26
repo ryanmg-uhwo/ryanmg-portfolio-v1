@@ -172,6 +172,28 @@ header {
     color: white;
 }
 
+.horseshoe {
+    background-size: cover;
+    background-image: url('../images/Portfolio_Horseshoe1.png');
+    background-repeat: no-repeat;
+    min-height: 31rem;
+    max-height: 50rem;
+    position: relative;
+    background-position: center center;
+    color: white;
+}
+
+.hth {
+    background-size: cover;
+    background-image: url('../images/Portfolio_HTH1.png');
+    background-repeat: no-repeat;
+    min-height: 31rem;
+    max-height: 50rem;
+    position: relative;
+    background-position: center center;
+    color: white;
+}
+
 .projectdetails {
     padding: 0;
     margin: 0;
