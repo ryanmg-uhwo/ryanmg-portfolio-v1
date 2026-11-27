@@ -143,8 +143,16 @@ header {
 }
 
 .epcot h2 {
+    /* font-size: 2em;
+    padding-top: 6em; */
+    font-size: 3.25em;
+    padding-top: 4em;
+    color: aqua;
+}
+
+.epcot h3 {
     font-size: 2em;
-    padding-top: 6em;
+    color: aqua;
 }
 
 .horseshoe h2 {
@@ -159,12 +167,14 @@ header {
 }
 
 .hth h2 {
-    font-size: 3.5em;
+    font-size: 3.25em;
     padding-top: 4em;
+    color: aqua;
 }
 
 .hth h3 {
     font-size: 2em;
+    color: aqua;
 }
 
 .hero-projectdetails {
