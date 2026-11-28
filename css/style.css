@@ -120,6 +120,8 @@ header {
     opacity: 1;
 }
 
+
+
 /* .nav-item {} */
 
 .nav-brand {
@@ -193,7 +195,7 @@ header {
 
 .epcot {
     background-size: cover;
-    background-image: url('../images/Portfolio_EPCOT1.png');
+    background-image: url('../images/epcot-gradient.png');
     background-repeat: no-repeat;
     min-height: 31rem;
     max-height: 50rem;
@@ -215,7 +217,7 @@ header {
 
 .hth {
     background-size: cover;
-    background-image: url('../images/Portfolio_HTH1.png');
+    background-image: url('../images/hth-gradient.png');
     background-repeat: no-repeat;
     min-height: 31rem;
     max-height: 50rem;
